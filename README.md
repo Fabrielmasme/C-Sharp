@@ -13,3 +13,8 @@ La cuestion es que se tiene que hay que poner " Trusted_Connection=True; " para 
 Se soluciono de la siguiente manera:
 
 [Key] //Sirve para definir que el Id es la llave primaria de la clase public int Id { get { return _Id; } //El getter y el setter permiten obtener y establecer el valor de la llave primaria de manera controlada. set { _Id = value; } }
+
+
+----- Cuando se ejecutaba la url del localhost en un GET en Postman aparecia "Error: connect ECONNREFUSED 127.0.0.1:7044"
+Indica que la conexión está siendo rechazada.
+Lo solucione reiniciando la ejecucion del proyecto en VisualStudio y volviendo a ejecutar en Postman.
